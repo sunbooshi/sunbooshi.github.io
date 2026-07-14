@@ -1,0 +1,22 @@
+{
+  "name": "sunbooshi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/third-parties": "16.2.10",
+    "@tailwindcss/postcss": "4.3.2",
+    "eslint": "10.7.0",
+    "eslint-config-next": "16.2.10",
+    "next": "16.2.10",
+    "postcss": "8.4.24",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "tailwindcss": "4.3.2"
+  }
+}

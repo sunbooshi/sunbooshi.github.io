@@ -1,0 +1,12 @@
+{
+  "name": "hexo-theme-maple",
+  "version": "0.0.5",
+  "description": "Hexo Theme Maple",
+  "repository": "xbmlz/hexo-theme-maple",
+  "keywords": [
+    "hexo",
+    "theme",
+    "maple"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="<%= config.language %>">
+
+<head>
+  <%- partial('_partial/head',{cache: true}) %>
+</head>
+<body>
+  <div id="app">
+    <%- partial('_partial/header', null, {cache: true}) %>
+    <main class="container">
+      <%- body %>
+    </main>
+    <%- partial('_partial/footer', null, {cache: true}) %>
+  </div>
+  <%- partial('_partial/after-footer') %>
+</body>
+
+</html>
