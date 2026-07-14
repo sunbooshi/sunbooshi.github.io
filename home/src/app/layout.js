@@ -5,7 +5,7 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: '我的开源项目资料记录',
+  title: '孙博士研究所',
   description: '探索未知',
 }
 

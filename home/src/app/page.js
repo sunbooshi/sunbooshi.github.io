@@ -6,7 +6,6 @@ import Link from 'next/link'
 function Beian() {
   return (
     <div className='absolute bottom-2 text-gray-400 text-sm flex flex-row w-full justify-center'>
-      <a href="https://beian.miit.gov.cn/" target="_blank">鲁ICP备2021031765号</a>
       <span>&nbsp;&nbsp;&nbsp;©2023 SunBooShi</span>
     </div>
   )
@@ -47,7 +46,7 @@ export default function Home() {
         </Link>
 
         <a
-          href="https://sun.booshi.tech/blog/index.html"
+          href="/blog"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
           target="_blank"
           rel="noopener noreferrer"
