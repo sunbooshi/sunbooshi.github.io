@@ -55,7 +55,7 @@ jobs:
           rm -rf docs
           mkdir docs
 
-          cp -R home/out/* docs/
+          cp -R home/dist/* docs/
 
           mkdir -p docs/blog
           cp -R blog/public/* docs/blog/
