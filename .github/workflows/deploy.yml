@@ -33,11 +33,11 @@ jobs:
 
       # ---------- Next.js ----------
       - name: Install Next dependencies
-        working-directory: next
+        working-directory: home
         run: npm ci
 
       - name: Build Next
-        working-directory: next
+        working-directory: home
         run: npm run build
 
       # ---------- Hexo ----------
