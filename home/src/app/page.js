@@ -6,7 +6,7 @@ import Link from 'next/link'
 function Beian() {
   return (
     <div className='absolute bottom-2 text-gray-400 text-sm flex flex-row w-full justify-center'>
-      <span>&nbsp;&nbsp;&nbsp;©2023 SunBooShi</span>
+      <span>&nbsp;&nbsp;&nbsp;©2026 SunBooShi</span>
     </div>
   )
 }
